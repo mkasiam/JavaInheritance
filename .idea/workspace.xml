@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee331dee-ec8d-4c05-a47b-855e7732b3ec" name="Changes" comment="Multiple right answer code">
-      <change afterPath="$PROJECT_DIR$/src/E9_12/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E9_12/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E9_12/Student.java" afterDir="false" />
+    <list default="true" id="ee331dee-ec8d-4c05-a47b-855e7732b3ec" name="Changes" comment="Person SuperClass with inherited Classes update successfully">
+      <change afterPath="$PROJECT_DIR$/src/E9_12/InstructorRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E9_12/PersonRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E9_12/StudentRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E9_13/Employee1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E9_13/Manager1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E9_13/Manager1Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E9_12/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E9_12/Instructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,32 +53,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BasicAccountRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckAnswer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FillInQuestion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumericQuestion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuestionDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuestionDemo4.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.BasicAccount1Test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasicAccount1Test.getBalanceAfterWithdrawAccount1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasicAccount1Test.getBalanceAfterWithdrawAccount2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BasicAccount1Test.getBalanceAfterWithdrawAccount3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ManagerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/mkasiam/IdeaProjects/JavaInheritance/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicAccountRunner.executor": "Run",
+    "Application.CheckAnswer.executor": "Run",
+    "Application.FillInQuestion.executor": "Run",
+    "Application.InstructorRunner.executor": "Run",
+    "Application.Manager1Runner.executor": "Run",
+    "Application.NumericQuestion.executor": "Run",
+    "Application.PersonRunner.executor": "Run",
+    "Application.QuestionDemo1.executor": "Run",
+    "Application.QuestionDemo4.executor": "Run",
+    "Application.StudentRunner.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BasicAccount1Test.executor": "Run",
+    "JUnit.BasicAccount1Test.getBalanceAfterWithdrawAccount1.executor": "Run",
+    "JUnit.BasicAccount1Test.getBalanceAfterWithdrawAccount2.executor": "Run",
+    "JUnit.BasicAccount1Test.getBalanceAfterWithdrawAccount3.executor": "Run",
+    "JUnit.ManagerTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mkasiam/IdeaProjects/JavaInheritance",
+    "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaInheritance/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -84,13 +93,13 @@
       <recent name="E9_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumericQuestion">
+  <component name="RunManager">
     <configuration name="NumericQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E_9_5.NumericQuestion" />
+      <option name="MAIN_CLASS_NAME" value="E9_5.NumericQuestion" />
       <module name="JavaInheritance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E_9_5.*" />
+          <option name="PATTERN" value="E9_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717136713225</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Person SuperClass with inherited Classes update successfully">
+      <option name="closed" value="true" />
+      <created>1717139245610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717139245610</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,6 +252,7 @@
     <MESSAGE value="Question Class New Implementation with special requirements dash &amp; others is done" />
     <MESSAGE value="Check User response in every way to check to the correct answer in CheckAnswer.java class" />
     <MESSAGE value="Multiple right answer code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiple right answer code" />
+    <MESSAGE value="Person SuperClass with inherited Classes update successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Person SuperClass with inherited Classes update successfully" />
   </component>
 </project>

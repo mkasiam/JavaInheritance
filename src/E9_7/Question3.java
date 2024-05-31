@@ -1,16 +1,15 @@
-package E_9_6;
+package E9_7;
 
-public class Question2 {
-
+public class Question3 {
     private String text;
     private String answer;
 
-    public Question2(String text, String answer) {
+    public Question3(String text, String answer) {
         this.text = text;
         this.answer = answer;
     }
 
-    public Question2() {
+    public Question3() {
         text = "";
         answer = "";
     }

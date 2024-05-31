@@ -3,7 +3,7 @@ package E9_12;
 public class Instructor extends Person {
     private double salary;
 
-    public Instructor(String name, int birthYear, double Salary) {
+    public Instructor(String name, int birthYear, double salary) {
         super(name,birthYear);
         this.salary = salary;
     }
@@ -18,7 +18,7 @@ public class Instructor extends Person {
 
     @Override
     public String toString() {
-        System.out.println("Salary: " + salary);
+        System.out.println("Salary: " + getSalary());
         return super.toString();
     }
 }
