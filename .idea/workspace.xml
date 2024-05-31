@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee331dee-ec8d-4c05-a47b-855e7732b3ec" name="Changes" comment="Person SuperClass with inherited Classes update successfully">
-      <change afterPath="$PROJECT_DIR$/src/E9_12/InstructorRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E9_12/PersonRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E9_12/StudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E9_13/Employee1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E9_13/Manager1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E9_13/Manager1Runner.java" afterDir="false" />
+    <list default="true" id="ee331dee-ec8d-4c05-a47b-855e7732b3ec" name="Changes" comment="Employee and Manager Class done with practical implementation Runner Class">
+      <change afterPath="$PROJECT_DIR$/src/E9_16/LabeledPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E9_12/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E9_12/Instructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +53,7 @@
     "Application.CheckAnswer.executor": "Run",
     "Application.FillInQuestion.executor": "Run",
     "Application.InstructorRunner.executor": "Run",
+    "Application.LabeledPoint.executor": "Run",
     "Application.Manager1Runner.executor": "Run",
     "Application.NumericQuestion.executor": "Run",
     "Application.PersonRunner.executor": "Run",
@@ -242,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717139245610</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Employee and Manager Class done with practical implementation Runner Class">
+      <option name="closed" value="true" />
+      <created>1717174630937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717174630937</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,6 +256,7 @@
     <MESSAGE value="Check User response in every way to check to the correct answer in CheckAnswer.java class" />
     <MESSAGE value="Multiple right answer code" />
     <MESSAGE value="Person SuperClass with inherited Classes update successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="Person SuperClass with inherited Classes update successfully" />
+    <MESSAGE value="Employee and Manager Class done with practical implementation Runner Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Employee and Manager Class done with practical implementation Runner Class" />
   </component>
 </project>
