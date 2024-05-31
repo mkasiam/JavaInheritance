@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee331dee-ec8d-4c05-a47b-855e7732b3ec" name="Changes" comment="Question Class New Implementation with special requirements dash &amp; others is done">
-      <change afterPath="$PROJECT_DIR$/src/E_9_7/CheckAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E_9_7/Question3.java" afterDir="false" />
+    <list default="true" id="ee331dee-ec8d-4c05-a47b-855e7732b3ec" name="Changes" comment="Check User response in every way to check to the correct answer in CheckAnswer.java class">
+      <change afterPath="$PROJECT_DIR$/src/E9_8/AnyCorrectChoiceQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E9_8/ChoiceQuestion4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E9_8/Question4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E9_8/QuestionDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
     "Application.FillInQuestion.executor": "Run",
     "Application.NumericQuestion.executor": "Run",
     "Application.QuestionDemo1.executor": "Run",
+    "Application.QuestionDemo4.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.BasicAccount1Test.executor": "Run",
     "JUnit.BasicAccount1Test.getBalanceAfterWithdrawAccount1.executor": "Run",
@@ -206,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717134207960</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Check User response in every way to check to the correct answer in CheckAnswer.java class">
+      <option name="closed" value="true" />
+      <created>1717134867524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717134867524</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,6 +226,7 @@
     <MESSAGE value="BankAccount Class implementation done with conditional withdraw method" />
     <MESSAGE value="Withdraw penalty of $30 for each withdrawal that results in an overdraft is done with perfect test cases" />
     <MESSAGE value="Question Class New Implementation with special requirements dash &amp; others is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question Class New Implementation with special requirements dash &amp; others is done" />
+    <MESSAGE value="Check User response in every way to check to the correct answer in CheckAnswer.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check User response in every way to check to the correct answer in CheckAnswer.java class" />
   </component>
 </project>
