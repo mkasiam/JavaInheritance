@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee331dee-ec8d-4c05-a47b-855e7732b3ec" name="Changes" comment="Employee and Manager Class done with practical implementation Runner Class">
-      <change afterPath="$PROJECT_DIR$/src/E9_16/LabeledPoint.java" afterDir="false" />
+    <list default="true" id="ee331dee-ec8d-4c05-a47b-855e7732b3ec" name="Changes" comment="LabeledPoint Class done finding the value of x, y and label and can successfully print all info through toString method overriding the Object method">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +71,15 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/mkasiam/IdeaProjects/JavaInheritance",
-    "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaInheritance/src/Main.java"
+    "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaInheritance/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -88,7 +91,7 @@
       <recent name="E9_1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NumericQuestion">
     <configuration name="NumericQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E9_5.NumericQuestion" />
       <module name="JavaInheritance" />
@@ -245,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717174630937</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LabeledPoint Class done finding the value of x, y and label and can successfully print all info through toString method overriding the Object method">
+      <option name="closed" value="true" />
+      <created>1717175347881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717175347881</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,6 +268,7 @@
     <MESSAGE value="Multiple right answer code" />
     <MESSAGE value="Person SuperClass with inherited Classes update successfully" />
     <MESSAGE value="Employee and Manager Class done with practical implementation Runner Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Employee and Manager Class done with practical implementation Runner Class" />
+    <MESSAGE value="LabeledPoint Class done finding the value of x, y and label and can successfully print all info through toString method overriding the Object method" />
+    <option name="LAST_COMMIT_MESSAGE" value="LabeledPoint Class done finding the value of x, y and label and can successfully print all info through toString method overriding the Object method" />
   </component>
 </project>
